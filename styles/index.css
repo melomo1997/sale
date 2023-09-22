@@ -49,6 +49,9 @@ button:hover{
     border-radius: 50px;
     width: 100px;
     margin-left: 90px;
+}
 
-
+.main{
+    display: flex;
+    flex-direction: row;
 }
