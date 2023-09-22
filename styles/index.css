@@ -60,5 +60,24 @@ p{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+   
+}
 
+.pic-one{
+    animation: imgzoom 3.5s ease infinite;
+}
+
+.pic-two {
+    animation: imgzoom 3.5s ease infinite;
+}
+
+img:hover{
+    animation-play-state: paused;
+}
+
+@keyframes imgzoom{
+    
+    0%{transform: scale(1) rotate(0deg);}
+    50% {transform: scale(1.1) rotate(15deg)}
+    100%{transform: scale(1) rotate(0deg);}
 }
