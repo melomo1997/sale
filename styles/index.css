@@ -1,0 +1,54 @@
+.main-title{
+    font-family: 'Mooli', sans-serif;
+    font-weight: 600;
+    font-weight: bolder;
+    text-align: center;
+}
+
+/* body{
+    background-image: url(../images/back-2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 2000px;
+} */
+
+.title{
+    font-family: 'Mooli', sans-serif;
+    font-weight: bolder;
+    text-align: center;
+}
+
+p{
+    font-family: 'Mooli', sans-serif;
+    
+}
+
+.first{
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.second{
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+   
+}
+
+button:hover{
+    background-color:lightgreen;
+    
+}
+
+.btn{
+    font-family: 'Mooli', sans-serif;   
+    border: 20px;
+    border-radius: 50px;
+    width: 100px;
+    margin-left: 90px;
+
+
+}
