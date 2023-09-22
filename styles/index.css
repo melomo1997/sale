@@ -28,6 +28,8 @@ p{
     display: flex;
     flex-direction: column;
     text-align: center;
+    border: 5px double black ;
+    border-radius: 10px;
 }
 
 .second{
@@ -35,11 +37,14 @@ p{
     display: flex;
     flex-direction: column;
     text-align: center;
+    border: 5px double black ;
+    border-radius: 10px;
    
 }
 
-button:hover{
+.btn:hover{
     background-color:lightgreen;
+    transition: all 0.9s ease-in-out;
     
 }
 
@@ -54,4 +59,6 @@ button:hover{
 .main{
     display: flex;
     flex-direction: row;
+    justify-content: space-around;
+
 }
