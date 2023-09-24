@@ -16,6 +16,8 @@
     font-family: 'Mooli', sans-serif;
     font-weight: bolder;
     text-align: center;
+    margin-top: 20px;
+    margin-bottom: 60px;
 }
 
 p{
@@ -67,9 +69,9 @@ p{
     animation: imgzoom 3.5s ease infinite;
 }
 
-.pic-two {
+/* .pic-two {
     animation: imgzoom 3.5s ease infinite;
-}
+} */
 
 img:hover{
     animation-play-state: paused;
